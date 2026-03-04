@@ -1,10 +1,37 @@
-# 🔥 Anarchy Optimizer
+<div align="center">
 
-AI-powered Enterprise IT infrastructure analyzer that provides actionable optimization recommendations.
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║    ████  █   █  ████  ████   ████ █   █ █   █                ║
+║   █    █ ██  █ █    █ █   █ █     █   █  █ █                 ║
+║   ██████ █ █ █ ██████ ████  █     █████   █                  ║
+║   █    █ █  ██ █    █ █  █  █     █   █   █                  ║
+║   █    █ █   █ █    █ █   █  ████ █   █   █                  ║
+║                                                               ║
+║    ████  ████  █████ █ █   █ █ █████ ███████ ████             ║
+║   █    █ █   █   █   █ ██ ██ █   █   █       █   █           ║
+║   █    █ ████    █   █ █ █ █ █   █   ████    ████            ║
+║   █    █ █       █   █ █   █ █   █   █       █  █            ║
+║    ████  █       █   █ █   █ █ █████ ███████ █   █           ║
+║   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ║
+║   AI-powered Enterprise IT infrastructure analyzer            ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
 
-![Anarchy Optimizer](https://img.shields.io/badge/AI-Powered-ff0064) ![React](https://img.shields.io/badge/React-18-61dafb) ![Claude](https://img.shields.io/badge/Claude-API-orange)
+[![MIT](https://img.shields.io/badge/license-MIT-E85D04?style=flat-square)](LICENSE)
+[![Web](https://img.shields.io/badge/platform-Web-00d4ff?style=flat-square)]()
+[![React](https://img.shields.io/badge/built_with-React-FAA307?style=flat-square)]()
+[![AnarchyGames](https://img.shields.io/badge/by-AnarchyGames.org-E85D04?style=flat-square)](https://anarchygames.org)
 
-## What it does
+*Building things that should exist.*
+
+</div>
+
+---
+
+## What It Does
 
 Enter your enterprise IT environment details and get:
 - **Overall Health Score** (0-100)
@@ -18,14 +45,9 @@ Enter your enterprise IT environment details and get:
 ### Option 1: Use with Vite (Recommended)
 
 ```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/anarchy-optimizer.git
-cd anarchy-optimizer
-
-# Install dependencies
+git clone https://github.com/AnarchySC/Anarchy-Optimizer.git
+cd Anarchy-Optimizer
 npm install
-
-# Run dev server
 npm run dev
 ```
 
@@ -34,21 +56,8 @@ npm run dev
 1. Go to [codesandbox.io](https://codesandbox.io) or [stackblitz.com](https://stackblitz.com)
 2. Create a new React project
 3. Replace `App.jsx` with the contents of `src/App.jsx`
-4. Done!
 
-## Project Structure
-
-```
-anarchy-optimizer/
-├── src/
-│   └── App.jsx          # Main application component
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-## How it Works
+## How It Works
 
 The app collects information about your IT environment across four categories:
 1. **Infrastructure** — Server count, types, versions
@@ -64,16 +73,32 @@ This data is sent to the Claude API, which analyzes the environment and returns 
 - Works in Claude.ai artifacts (no API key needed)
 - For standalone deployment, you'll need to add API key handling
 
-## Customization
+## Project Structure
 
-- **Colors**: Edit the gradient values in the header section
-- **Categories**: Modify the analysis prompt to add/remove evaluation categories
-- **Branding**: Update the title and tagline in the header
-
-## License
-
-MIT
+```
+Anarchy-Optimizer/
+├── src/
+│   └── App.jsx          # Main application component
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
 ---
 
-Built with 🔥 and Claude AI
+<div align="center">
+
+## Support
+
+If Anarchy Optimizer helps your team, consider buying me a coffee.
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Anarchy_Optimizer-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/cassettefuture)
+
+---
+
+MIT License.
+
+An [AnarchyGames.org](https://anarchygames.org) project.
+
+</div>
